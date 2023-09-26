@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="3">
+    <!-- ________________________________________________________________-->
+    <test name="T1">
+        <parameter name="browserType" value="EdgeDriver"/>
+        <classes>
+            <class name="Test_cases"> </class>
+        </classes>
+    </test>
+    <!-- ________________________________________________________________-->
+    <test name="T2">
+        <parameter name="browserType" value="Firefox"/>
+        <classes>
+            <class name="Test_cases">
+            </class>
+        </classes>
+    </test>
+    <!-- ________________________________________________________________-->
+    <test name="T3">
+        <parameter name="browserType" value="Chrome"/>
+        <classes>
+            <class name="Test_cases">
+            </class>
+        </classes>
+    </test>
+    <!-- ________________________________________________________________-->
+</suite>
